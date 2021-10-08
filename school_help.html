@@ -4,6 +4,7 @@
             display: flex;
             margin: 0px;
             background-color: #1F2937;
+            flex-wrap: wrap;
         }
 
         .header {
@@ -13,12 +14,18 @@
             gap: 25px;
             margin-left: 10em;
             margin-right: 10em;
+            flex-basis: 100%;
         }
 
         .links {
             display: inline-flex;
             justify-self: flex-end;
             gap: 15px;
+        }
+
+        .header_text {
+            color: #E5e7eb;
+            flex-basis: 100%;
         }
 
         .logo {
@@ -30,6 +37,11 @@
             font-size: 18px;
             color: #E5e7eb;
             text-decoration: none;
+        }
+
+        p {
+            font-size: 18px;
+            color: #E5e7eb;
         }
 
     </style>
@@ -47,6 +59,13 @@
                 <a href=''>link 3</a>
             </div> 
         </div>
-        <>
+        <br>
+        <div class='header_text'>
+            <h1>Hysko Huskies<h1>
+            <p>Hysko Huskies is amazing store. It
+                sells amazing produce
+                for huskies as well as huskies them 
+                selves</p>
+        </div>
     </body>
 </html>
